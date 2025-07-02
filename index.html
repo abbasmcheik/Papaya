@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up For Nothing - The Ultimate Non-Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 Sign Up For Nothing</h1>
+            <p class="tagline">The most pointless sign-up experience on the internet!</p>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Why Sign Up For Something When You Can Sign Up For Nothing?</h2>
+                <div class="benefits">
+                    <div class="benefit">
+                        <span class="icon">✨</span>
+                        <p>Receive absolutely zero emails</p>
+                    </div>
+                    <div class="benefit">
+                        <span class="icon">🎯</span>
+                        <p>Get access to nothing special</p>
+                    </div>
+                    <div class="benefit">
+                        <span class="icon">🚀</span>
+                        <p>Join thousands of people doing nothing</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="signup-section">
+                <h3>Ready to Do Nothing?</h3>
+                <form id="signupForm" class="signup-form">
+                    <div class="form-group">
+                        <label for="name">Your Name (we won't remember it)</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email (goes straight to /dev/null)</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="motivation">Why do you want to sign up for nothing?</label>
+                        <select id="motivation" name="motivation">
+                            <option value="">Choose your reason</option>
+                            <option value="bored">I'm extremely bored</option>
+                            <option value="curious">Morbid curiosity</option>
+                            <option value="procrastinating">Avoiding real work</option>
+                            <option value="collecting">I collect pointless sign-ups</option>
+                            <option value="testing">Testing this demo</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="signup-btn">Sign Up For Absolutely Nothing</button>
+                </form>
+                
+                <div id="result" class="result hidden"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Sign Up For Nothing. All rights reserved to do nothing.</p>
+            <p class="disclaimer">No data is actually collected. This is just a demo.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
